@@ -1,0 +1,24 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: ORDER-ITEM-SERVICE
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    generate-ddl: true
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone : http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+logging:
+  file:
+    path: C:\Users\5558\Desktop\logs\elk.log
+
