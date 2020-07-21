@@ -20,4 +20,4 @@ eureka:
     hostname: localhost
 logging:
   file:
-    path: C:\Users\5558\Desktop\logs\elk.log
+    path: C:\logs\elk.log
