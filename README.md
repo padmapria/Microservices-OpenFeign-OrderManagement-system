@@ -18,8 +18,8 @@ Order has below data:
 - Total ($)   
 
 Tech requirements:
-- Use FeignClient for inter-service communication
-- Use H2 DB to store order & order item data
-- Need to have global exception handler to handle exceptions like OrderNotFound
-- Need to validate request input
-- APIs should be exposed as REST APIs
+- Used FeignClient for inter-service communication
+- Used H2 DB to store order & order item data
+- Used global exception handler to handle exceptions like OrderNotFound
+- Validated request input
+- Exposed APIs as REST APIs
